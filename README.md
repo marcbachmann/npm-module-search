@@ -1,7 +1,7 @@
 # npm-module-search
 
 ```javascript
-var npmSearch = require('npm-remote-search')
+var npmSearch = require('npm-module-search')
 npmSearch.search('express', function (err, modules) {
   console.log('Here are 20 modules', modules)
   // modules is an array of objects like:

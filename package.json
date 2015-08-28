@@ -12,5 +12,14 @@
     "cheerio": "^0.19.0",
     "find-in-batches": "^2.0.1",
     "request": "^2.61.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbachmann/npm-module-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcbachmann/npm-module-search/issues"
+  },
+  "homepage": "https://github.com/marcbachmann/npm-module-search#readme"
 }
