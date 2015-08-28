@@ -1,6 +1,6 @@
 {
   "name": "npm-module-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module to search for npm modules",
   "main": "index.js",
   "scripts": {
