@@ -10,7 +10,6 @@ npmSearch.search('express', function (err, modules) {
   //   version: '1.0.0'
   //   author: 'some author'
   //   description: 'the description'
-  //   stars: 1
   // }
 })
 
