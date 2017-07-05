@@ -37,11 +37,10 @@ function search (query, options, callback) {
     var modules = []
     $('.package-details').each(function () {
       modules.push({
-        name: $(this).find('.name').text(),
+        name: $(this).find('.packageName').text(),
         version: $(this).find('.version').text(),
-        author: $(this).find('.author').text(),
-        description: $(this).find('.description').text(),
-        stars: parseInt($(this).find('.stars').text(), 10)
+        author: $(this).find('.authorName').text(),
+        description: $(this).find('.description').text()
       })
     })
     callback(null, modules)
