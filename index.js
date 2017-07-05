@@ -15,7 +15,7 @@ exports.search = function (query, options, callback) {
   if (options.limit) opts.maximum = options.limit
 
   var modules = []
-  findInBatches(opts, function find (options, callback) {
+  findInBatches.each(opts, function find (options, callback) {
     search(query, options, callback)
   }, function each (m, done) {
     modules.push(m)
