@@ -1,25 +1,28 @@
 {
-  "name": "npm-module-search",
-  "version": "2.0.0",
-  "description": "A module to search for npm modules",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
-  },
-  "author": "Marc Bachmann <marc.brookman@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "cheerio": "^0.19.0",
-    "find-in-batches": "^2.0.1",
-    "request": "^2.61.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marcbachmann/npm-module-search.git"
-  },
-  "bugs": {
-    "url": "https://github.com/marcbachmann/npm-module-search/issues"
-  },
-  "homepage": "https://github.com/marcbachmann/npm-module-search#readme"
+    "author": {
+        "name": "Marc Bachmann",
+        "email": "marc.brookman@gmail.com"
+    },
+    "bugs": {
+        "url": "https://github.com/marcbachmann/npm-module-search/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {
+        "request": "^2.61.0"
+    },
+    "deprecated": false,
+    "description": "A module to search for npm modules",
+    "devDependencies": {},
+    "homepage": "https://github.com/marcbachmann/npm-module-search#readme",
+    "license": "MIT",
+    "main": "index.js",
+    "name": "npm-module-search",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marcbachmann/npm-module-search.git"
+    },
+    "scripts": {
+        "test": "node test.js"
+    },
+    "version": "2.0.0"
 }
