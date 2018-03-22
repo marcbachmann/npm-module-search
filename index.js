@@ -10,11 +10,11 @@ exports.search = function(query, options, callback) {
 
     request({
         method: 'get',
-        url: 'https://www.npmjs.com/search/suggestions?q=' + query + '&size=' + options.limit,
-        headers: { 'Content-Type': 'application/json' }
+        url: 'https://www.npmjs.com/search/suggestions?q=' + query + '&size=' + options.limit || 20,
+        headers: { 'Content-Type': 'application/json' },
+        json: true
     }, function(err, res, body) {
         if (err) return callback(err)
-        var modules = body;
-        callback(null, JSON.parse(modules))
+        callback(null, modules)
     })
 }
