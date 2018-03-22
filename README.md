@@ -32,9 +32,9 @@ npmSearch.search('express', function (err, modules) {
   //   maintainers: [
   //	    {
   //	        username: "marcbachmann",
-  //		email: "marc.brookman@gmail.com"
+  //		      email: "marc.brookman@gmail.com"
   //	    }
-  //	]
+  //	 ]
   // }
 })
 
